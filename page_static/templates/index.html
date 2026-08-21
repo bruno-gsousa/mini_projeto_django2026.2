@@ -28,19 +28,19 @@
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#"> Home </a>
+              <a class="nav-link active" href="{% url 'home' %}"> Home </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"> Sobre </a>
+              <a class="nav-link" href="{% url 'sobre' %}"> Sobre </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"> Serviços </a>
+              <a class="nav-link" href="{% url 'servicos' %}"> Serviços </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"> Contato </a>
+              <a class="nav-link" href="{% url 'contato' %}"> Contato </a>
             </li>
           </ul>
         </div>
@@ -164,13 +164,13 @@
                     <h4>Links</h4>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="{% url 'home' %}" class="text-white">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white">Sobre</a>
+                            <a href="{% url 'sobre' %}" class="text-white">Sobre</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white">Serviços</a>
+                            <a href="{% url 'servicos' %}" class="text-white">Serviços</a>
                         </li>
                     </ul>
                 </div>
